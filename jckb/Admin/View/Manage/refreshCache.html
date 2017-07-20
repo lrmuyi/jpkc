@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文章搜索结果</title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+</head>
+<body>
+	<div class="wrap">
+		<h2>更新缓存</h2>
+		<div>
+			<div style="display:block;margin:50px 150px;"><!--{if $msg}--><span style="color:red;font-size:1.3em;"><!--{$msg}--></span><!--{else}--><form method="POST">
+				<input type = "hidden" name = "refresh" value="1"/>
+				<input type = "submit" value = "　　更新缓存　　"/>
+			</form><!--{/if}--></div>
+	</div>
+</body>
+</html>

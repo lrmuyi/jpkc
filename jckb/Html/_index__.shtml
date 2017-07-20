@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>兰州理工大学技术工程学院精品课程申报 - PLC综合训练</title>
+    <meta content="精品课程,PLC综合训练,学习指南,教学成果,远程教育,授课录像,教师风采,教学团队,课件" name="keywords" />
+    <meta content="本网站是兰州工大学技术工程学院PLC综合训练精品课程申报网站，展示大量课程相关内容。" name="description" />
+	<link rel="stylesheet" href="/gcsx/public/Home/image/css/main.css?v=20161124" media="screen"/>
+	<!--[if lte IE 6]>
+	<script src="/gcsx/public/Home/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	DD_belatedPNG.fix('div, ul, img, li, input, a, .logo,.boxhead,.boxhead2,.boxhead3,.boxmore');
+	</script>
+	<![endif]--> 
+	<script type="text/javascript">
+  		window.onload=function(){
+        function getElement(id){
+            return document.getElementById(id);
+        }
+
+        
+        var speed=30;//滚动速度
+        var demo=getElement("demo");
+        var demo2=getElement("demo2");
+        var demo1=getElement("demo1");
+        demo2.innerHTML=demo1.innerHTML//复制demo1中的图片到demo2中
+        
+        function Marqueeleft(){//向左滚动
+            if(demo2.offsetWidth-demo.scrollLeft<=0)
+                demo.scrollLeft-=demo1.offsetWidth
+            else
+                demo.scrollLeft++
+        }
+        
+        function Marqueeright(){//向右滚动
+            if(demo2.offsetWidth-demo.scrollLeft>=565)
+                demo.scrollLeft+=demo1.offsetWidth
+            else
+                demo.scrollLeft--
+        }
+    
+        var MyMar=setInterval(Marqueeleft,speed)//自动开始滚动
+        Direction='Left';//设定初始方向为向左滚
+        demo.onmouseover=function() {clearInterval(MyMar)}
+        demo.onmouseout=function() {
+            if(Direction=='Left'){
+                MyMar=setInterval(Marqueeleft,speed)
+            }else if(Direction=='Right'){
+                MyMar=setInterval(Marqueeright,speed)
+            }
+        };
+        
+        getElement('left').onclick=function(){
+            clearInterval(MyMar);
+            MyMar=setInterval(Marqueeleft,speed)
+            Direction='Left';
+        };
+        getElement('left').onmouseover=function(){
+            this.style.opacity=0.3;
+            this.style.filter='alpha(opacity=30)';
+        }   
+        getElement('left').onmouseout=function(){
+            this.style.opacity=0.05;
+            this.style.filter='alpha(opacity=5)';
+        }
+    
+        getElement('right').onclick=function(){
+            clearInterval(MyMar);
+            MyMar=setInterval(Marqueeright,speed)
+            Direction='Right';
+        };
+        getElement('right').onmouseover=function(){
+            this.style.opacity=0.3;
+            this.style.filter='alpha(opacity=30)';
+        }   
+        getElement('right').onmouseout=function(){
+            this.style.opacity=0.05;
+            this.style.filter='alpha(opacity=5)';
+        }
+    }
+  	</script>
+</head>
+<body>
+	<div class="head">
+		<div class="top">
+			<div class="logo">
+				<a href="http://jpkc.lutcte.cn/plc/" title="兰州理工大学技术工程学院精品课程申报 - PLC综合训练" alt="兰州理工大学技术工程学院精品课程申报 - PLC综合训练"><img src="/gcsx/public/Home/image/logo.png" alt="兰州理工大学技术工程学院精品课程申报 - PLC综合训练" /></a>
+			</div>
+		</div>
+		<div class="nav">
+			<ul class="navlist">
+                				<li class="navcell"><a href="http://jpkc.lutcte.cn/gcsx/">首页</a></li>
+							</ul>
+		</div>
+		<div class="navshadow"></div>
+	</div>
+	<div class="wrap">
+		<div class="topbanner"style="background: url('/gcsx/public/Attached/banner/2015-11-16/banner1447663602.jpg') no-repeat top center;"></div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/1.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist">
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+									</ul>
+						</div>
+		</div>
+		<div class="box middlebox">
+			<div class="boxhead boxhead2">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/2.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist box2list">
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+												<li><a href="/gcsx/article/.html" title=""><img src="/gcsx/public/Home/image/lisym.jpg" title="linesymbol"/></a><span class="litime"></span></li>
+											</ul>
+							</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/3.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist">
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+									</ul>
+						</div>
+		</div>
+		<div class="box iconbox">
+			<div>
+				<ul class="iconul">
+					<li class="iconli"><a href="#"><img src="/gcsx/public/Home/image/icon1.jpg" alt="icon1"></a></li>
+					<li class="iconli"><a href="#"><img src="/gcsx/public/Home/image/icon2.jpg" alt="icon2"></a></li>
+					<li class="iconli"><a href="#"><img src="/gcsx/public/Home/image/icon3.jpg" alt="icon3"></a></li>
+					<li class="iconli"><a href="#"><img src="/gcsx/public/Home/image/icon4.jpg" alt="icon4"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/4.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist">
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+									</ul>
+						</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/5.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist">
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+									</ul>
+						</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"></span>
+				<span class="boxmore"><a href="/gcsx/list/6.html"><img src="/gcsx/public/Home/image/boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+								<ul class="boxlist">
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+										<li><a href="/gcsx/article/.html" title=""></a></li>
+									</ul>
+						</div>
+		</div>
+		<div class="box longbox">
+			<div class="boxhead boxhead3">
+				<span class="boxtitle">图片展示</span>
+			</div>
+			<!--底部跑马灯-->
+			<div class="marquee">
+				<div id="outer">
+					<a href="#nogo" hidefocus id="left"><img src="/gcsx/public/Home/image/Left.png" /></a>
+					<div id="demo" >
+					    <table width="565px" border="0"  cellpadding="0" bgcolor="#FFFFFF">
+					        <tr>
+					            <td id="demo1" valign="top">
+					                <table border="0" align="center" cellpadding="0" cellspacing="0">
+					                    <tr valign="top" >
+																                    </tr>
+					                </table>
+					            </td>
+					            <td id="demo2" valign="top"></td>
+					        </tr>
+					    </table>
+					</div>
+					<a href="#nogo" hidefocus id="right"><img src="/gcsx/public/Home/image/Right.png" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+				<p>兰州理工大学技术工程学院精品课程申报 - PLC综合训练</p>
+		<p>Copyright @ 2015-2020 兰州理工大学技术工程学院精品课程申报网</p>
+	</div>
+</body>
+</html>

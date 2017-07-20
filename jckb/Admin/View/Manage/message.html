@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改关于我们联系方式</title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/main.css"/>
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->themes/default/default.css" />
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css" />
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->kindeditor.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->lang/zh_CN.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.js"></script>
+	<script type="text/javascript">
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content1"]', {
+				cssPath : '<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css',
+				uploadJson : '<!--{$smarty.const.EDITOR_URL}-->php/upload_json.php',
+				fileManagerJson : '<!--{$smarty.const.EDITOR_URL}-->php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
+</head>
+<body>
+	<div class="background">
+		<div class="top">
+			<div class="navi"><a href="/default.html"  target="_blank">网站首页</a>&nbsp;&nbsp;<a href="<!--{$smarty.const.__MODULE__}-->/Identify/logout">安全退出</a></div>
+		</div>
+		<div class="editorbox">
+			<div class="editor">
+				<form name="editor" method="post">
+					<h2>联系我们：</h2>
+					<textarea name="content1" style="width:700px;height:300px;visibility:hidden;"><!--{$data.content}--></textarea>
+					<br />
+					<input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)<label>*<!--{$err}--></label>
+				</form>
+			</div>
+		</div>
+		<div class="goback3"><a href="<!--{$smarty.const.__MODULE__}-->/default.html" title="返回上一页"><img src="<!--{$smarty.const.ADMIN_IMAGE_URL}-->goback.png"/></a></div>
+		<div class="bottom">
+			<div>Copyright © 2014-2024 www.taoyange.com All Rights Reserved<a href="<!--{$smarty.const.__MODULE__}-->/Manage/friendLink">友情链接管理</a></div>
+		</div>
+	</div>
+</body>
+</html>

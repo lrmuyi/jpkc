@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网站设置</title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+	<script>
+		window.onload = checkTclose;
+
+		function checkTclose(){
+			var tclose = document.getElementById('tclose');
+			var cnotice = document.getElementById('cnotice');
+
+			if(tclose.checked==true){
+				cnotice.style='display:table-row';
+			}else{
+				cnotice.style='display:none';
+			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<div class="wrap">
+			<h2>站点信息：</h2>
+			<div class="wcon">
+				<form method="post">
+					<table class="mtab" style="width:600px;">
+						<tr>
+							<td style="width:130px;">站点名称</td><td><input type="text" name="siteName" style="width:320px;" value="<!--{$info[0].content}-->"/></td><td style="border:none;color:silver;width:200px;">	网站名称，将显示在页面底部的联系方式处</td>
+						</tr>
+						<tr>
+							<td>网站名称</td><td><input type="text" name="websName" style="width:320px;" value="<!--{$info[1].content}-->"/></td><td style="border:none;color:silver;">站点名称，将显示在浏览器窗口标题等位置</td>
+						</tr>
+						<tr>
+							<td>网站描述</td><td><textarea style="width:320px;resize:none;" name="sitedesc"/><!--{$info[2].content}--></textarea></td><td style="border:none;color:silver;">网站描述，作为网站的简介</td>
+						</tr>
+						<tr>
+							<td>网站关键词</td><td><textarea style="width:320px;resize:none;" name="keywords"/><!--{$info[3].content}--></textarea></td><td style="border:none;color:silver;">网站主题的关键词，3~15个</td>
+						</tr>
+						<tr>
+							<td>网站URL</td><td><input type="text" name="siteUrl" style="width:320px;" value="<!--{$info[4].content}-->"/></td><td style="border:none;color:silver;">	网站 URL，将作为链接显示在logo处或页面底部</td>
+						</tr>
+						<tr>
+							<td>网站备案号码</td><td><input type="text" name="icp" style="width:320px;" value="<!--{$info[5].content}-->"/></td><td style="border:none;color:silver;">	页面底部可以显示 ICP 备案信息</td>
+						</tr>
+						<tr>
+							<td>关闭站点</td><td>
+								<input id="tclose" type="radio" name="tempclose" value="1" onclick="checkTclose();" <!--{if $info[6].content == 1}-->checked="checked"<!--{/if}-->/>是
+								<input type="radio" name="tempclose" value="0" onclick="checkTclose();" <!--{if $info[6].content == 0}-->checked="checked"<!--{/if}-->/>否
+							</td><td style="border:none;color:silver;"> 暂时将站点关闭，所有人无法访问前台</td>
+						</tr>
+						<tr id="cnotice" style="display:none;">
+							<td style="width:130px;">关闭时显示提示语</td><td><input type="text" name="cnotice" style="width:320px;" value="<!--{$info[7].content}-->"/></td><td style="border:none;color:silver;">网站关闭时页面显示该提示</td>
+						</tr>
+					</table>
+					<input style="margin-top:10px;" type="submit" name="button" value="　保存　" /></span>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

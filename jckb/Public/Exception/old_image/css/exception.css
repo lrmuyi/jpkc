@@ -1,0 +1,13 @@
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ width:1000px; margin:0 auto; background: url('../bodyback.jpg'); font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ margin:0 auto; box-sizing:border-box; width: 950px;height:556px; padding: 90px 100px; background: url('../notice.png') no-repeat; font-family: "华文行楷"; color:#4f4f4f;}
+h1{ font-size: 48px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }

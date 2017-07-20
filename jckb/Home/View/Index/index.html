@@ -1,0 +1,160 @@
+<!--{include file="../Common/header_index.html"}-->
+	<div class="wrap">
+		<div class="topbanner"<!--{if $info[8].content != ''}-->style="background: url('<!--{$smarty.const.__ROOT__}--><!--{$info[8].content}-->') no-repeat top center;"<!--{/if}-->></div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"><!--{$ui[0].info.title|truncateutf8:19}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[0].single == 1}-->article/<!--{$ui[0].tid}--><!--{else}-->list/<!--{$ui[0].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+				<!--{if $ui[0].single == 1}-->
+				<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[0].tid}-->.html"><!--{$ui[0].info.content|strip_tags}-->
+				</a>
+			<!--{else}-->
+				<ul class="boxlist">
+					<!--{section name=n loop=$ui max=6}-->
+					<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[0].artlist[n].tid}-->.html" title="<!--{$ui[0].artlist[n].title}-->"><!--{$ui[0].artlist[n].title}--></a></li>
+					<!--{/section}-->
+				</ul>
+			<!--{/if}-->
+			</div>
+		</div>
+		<div class="box middlebox">
+			<div class="boxhead boxhead2">
+				<span class="boxtitle"><!--{$ui[1].info.title|truncateutf8:50}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[1].single == 1}-->article/<!--{$ui[1].tid}--><!--{else}-->list/<!--{$ui[1].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+			<!--{if $ui[1].single == 1}-->
+				<div class="boxtext">
+					<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[1].tid}-->.html"><!--{$ui[1].info.content|strip_tags}-->
+					</a>
+				</div><div class="boximg"><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[1].tid}-->.html"><img src="<!--{$smarty.const.ATTACHED_IMG_URL}--><!--{if $ui[1].info.cover}--><!--{$ui[1].info.cover}-->_s.jpg<!--{else}-->nopic.jpg_s.jpg<!--{/if}-->" alt="<!--{$ui[1].info.title}-->"></a></div>
+					<!--{else}-->
+					<ul class="boxlist box2list">
+						<!--{section name=n loop=$ui max=6}-->
+						<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[1].artlist[n].tid}-->.html" title="<!--{$ui[1].artlist[n].title}-->"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->lisym.jpg" title="linesymbol"/><!--{$ui[1].artlist[n].title}--></a><span class="litime"><!--{$ui[1].artlist[n].rtime|date_format:"%Y-%m-%d"}--></span></li>
+						<!--{/section}-->
+					</ul>
+				<!--{/if}-->
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"><!--{$ui[2].info.title|truncateutf8:19}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[2].single == 1}-->article/<!--{$ui[2].tid}--><!--{else}-->list/<!--{$ui[2].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+				<!--{if $ui[2].single == 1}-->
+				<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[2].tid}-->.html"><!--{$ui[2].info.content|strip_tags}-->
+				</a>
+			<!--{else}-->
+				<ul class="boxlist">
+					<!--{section name=n loop=$ui max=6}-->
+					<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[2].artlist[n].tid}-->.html" title="<!--{$ui[2].artlist[n].title}-->"><!--{$ui[2].artlist[n].title}--></a></li>
+					<!--{/section}-->
+				</ul>
+			<!--{/if}-->
+			</div>
+		</div>
+		<div class="box iconbox">
+			<div>
+				<ul class="iconul">
+					<li class="iconli"><a href="#"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->icon1.jpg" alt="icon1"></a></li>
+					<li class="iconli"><a href="#"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->icon2.jpg" alt="icon2"></a></li>
+					<li class="iconli"><a href="#"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->icon3.jpg" alt="icon3"></a></li>
+					<li class="iconli"><a href="#"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->icon4.jpg" alt="icon4"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"><!--{$ui[3].info.title|truncateutf8:19}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[3].single == 1}-->article/<!--{$ui[3].tid}--><!--{else}-->list/<!--{$ui[3].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+				<!--{if $ui[3].single == 1}-->
+				<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[3].tid}-->.html"><!--{$ui[3].info.content|strip_tags}-->
+				</a>
+			<!--{else}-->
+				<ul class="boxlist">
+					<!--{section name=n loop=$ui max=6}-->
+					<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[3].artlist[n].tid}-->.html" title="<!--{$ui[3].artlist[n].title}-->"><!--{$ui[3].artlist[n].title}--></a></li>
+					<!--{/section}-->
+				</ul>
+			<!--{/if}-->
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"><!--{$ui[4].info.title|truncateutf8:19}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[4].single == 1}-->article/<!--{$ui[4].tid}--><!--{else}-->list/<!--{$ui[4].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+				<!--{if $ui[4].single == 1}-->
+				<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[4].tid}-->.html"><!--{$ui[4].info.content|strip_tags}-->
+				</a>
+			<!--{else}-->
+				<ul class="boxlist">
+					<!--{section name=n loop=$ui max=6}-->
+					<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[4].artlist[n].tid}-->.html" title="<!--{$ui[4].artlist[n].title}-->"><!--{$ui[4].artlist[n].title}--></a></li>
+					<!--{/section}-->
+				</ul>
+			<!--{/if}-->
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxhead">
+				<span class="boxtitle"><!--{$ui[5].info.title|truncateutf8:19}--></span>
+				<span class="boxmore"><a href="<!--{$smarty.const.__ROOT__}-->/<!--{if $ui[5].single == 1}-->article/<!--{$ui[5].tid}--><!--{else}-->list/<!--{$ui[5].cid}--><!--{/if}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->boxmore.png"/></a></span>
+			</div>
+			<div class="boxcon">
+				<!--{if $ui[5].single == 1}-->
+				<a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[5].tid}-->"><!--{$ui[5].info.content|strip_tags}-->
+				</a>
+			<!--{else}-->
+				<ul class="boxlist">
+					<!--{section name=n loop=$ui max=6}-->
+					<li><a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$ui[5].artlist[n].tid}-->.html" title="<!--{$ui[5].artlist[n].title}-->"><!--{$ui[5].artlist[n].title}--></a></li>
+					<!--{/section}-->
+				</ul>
+			<!--{/if}-->
+			</div>
+		</div>
+		<div class="box longbox">
+			<div class="boxhead boxhead3">
+				<span class="boxtitle">图片展示</span>
+			</div>
+			<!--底部跑马灯-->
+			<div class="marquee">
+				<div id="outer">
+					<a href="#nogo" hidefocus id="left"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->Left.png" /></a>
+					<div id="demo" >
+					    <table width="565px" border="0"  cellpadding="0" bgcolor="#FFFFFF">
+					        <tr>
+					            <td id="demo1" valign="top">
+					                <table border="0" align="center" cellpadding="0" cellspacing="0">
+					                    <tr valign="top" >
+											<!--{section name=n loop=$push max=16}-->
+					                        <td align="center" style="border:1px solid #FFFFFF;">
+					                            <a href="<!--{$smarty.const.__ROOT__}-->/article/<!--{$push[n].tid}-->.html" class="listname" title="<!--{$push[n].title}-->" target="_blank">
+					                            	<div class="listimage" style="background:url('<!--{$smarty.const.ATTACHED_IMG_URL}--><!--{if $push[n].cover}--><!--{$push[n].cover}-->_s.jpg<!--{else}-->nopic.jpg_s.jpg<!--{/if}-->') no-repeat center;background-size: cover;">
+					                                    <span class="imgtitle"><!--{$push[n].title}--></span>
+					                                
+					                            	</div>
+					                            </a>
+					                        </td>
+					                        <!--{/section}-->
+					                    </tr>
+					                </table>
+					            </td>
+					            <td id="demo2" valign="top"></td>
+					        </tr>
+					    </table>
+					</div>
+					<a href="#nogo" hidefocus id="right"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->Right.png" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--{include file="../Common/footer.html"}-->

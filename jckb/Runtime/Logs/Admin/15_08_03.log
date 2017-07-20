@@ -1,0 +1,36 @@
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/img/menu_icon.gif
+ERR: 非法操作:img
+
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/img/title_bg1.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/img/shadow_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:17:42+08:00 ] 192.168.184.18 /cyuyan/admin/index/img/menu_bt.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:18:33+08:00 ] 192.168.184.18 /cyuyan/admin/Index/img/menu_icon.gif
+ERR: 非法操作:img
+
+[ 2015-08-03T15:18:33+08:00 ] 192.168.184.18 /cyuyan/admin/Index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:18:33+08:00 ] 192.168.184.18 /cyuyan/admin/Index/img/menu_bt.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:18:34+08:00 ] 192.168.184.18 /cyuyan/admin/Index/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-08-03T15:18:34+08:00 ] 192.168.184.18 /cyuyan/admin/Index/img/title_bg1.jpg
+ERR: 非法操作:img
+
+[ 2015-08-03T15:18:34+08:00 ] 192.168.184.18 /cyuyan/admin/Index/img/shadow_bg.jpg
+ERR: 非法操作:img
+

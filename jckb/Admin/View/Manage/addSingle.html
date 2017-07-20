@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创建新单页</title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->themes/default/default.css" />
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css" />
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->kindeditor.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->lang/zh_CN.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var title = document.getElementById('title');
+			var con = document.getElementById('con');
+			var errMsg = document.getElementById('errMsg');
+			if(title.value){
+				wleft();
+			}
+
+			title.onblur = checkTitle;
+
+			title.onfocus = function(){
+				var errMsg = document.getElementById('errMsg');
+				errMsg.innerHTML = '*';
+			}
+		}
+
+		function checkTitle(){
+			var title = document.getElementById('title');
+			var errMsg = document.getElementById('errMsg');
+			if(title.value.length == 0){
+				errMsg.innerHTML = '*文章标题必须填写！';
+				return false;
+			}
+			return 1;
+		}
+
+		//检查内容字数
+		/*function checkContent(){
+			if(checkTitle()!=1){
+				return false;
+			}
+			var content = document.getElementById('con');
+			var errMsg = document.getElementById('errMsg2');
+			if(content.value.length < 10){
+				errMsg.innerHTML= '内容为空或字数太少！';
+				return false;
+			}
+		}*/
+
+		function wleft(){
+			var title = document.getElementById('title');
+			var wordleft = document.getElementById('wordleft');
+			
+			wordleft.innerHTML = <!--{$smarty.const.TITLE_MAX_WORD}--> - title.value.length;
+		}
+
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content1"]', {
+				cssPath : '<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css',
+				uploadJson : '<!--{$smarty.const.EDITOR_URL}-->php/upload_json.php',
+				fileManagerJson : '<!--{$smarty.const.EDITOR_URL}-->php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<h2>内容管理</h2>
+		<div class="wcon">
+			<div class="editor">
+				<form name="editor" method="post" onsubmit="return(checkContent());">
+					<p style="margin:5px 0;">文章标题：<input type="text" name="title" id="title" onkeyup="wleft();" Maxlength="<!--{$smarty.const.TITLE_MAX_WORD}-->" class="atitle" value="<!--{$temp.title}-->"><span>文章标题还能键入<span id="wordleft"><!--{$smarty.const.TITLE_MAX_WORD}--></span>字</span><label  id="errMsg">*<!--{$err.title}--></label></p>
+					<textarea name="content1" id="con" style="width:700px;height:300px;visibility:hidden;"><!--{$temp.content1}--></textarea>
+					<br />
+					<input type="submit" name="button" onsubmit="con_submit();" value="提交内容" /> (提交快捷键: Ctrl + Enter)<label id="errMsg">*<!--{$err.content1}--></label><label id="errMsg2"><!--{$err.title}--></label>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+create database jxcg_gxcms;
+use jxcg_gxcms;
+
+create table admin (
+aid char(20) primary key,
+password char(32) not null,
+level int default 1,
+ctime TIMESTAMP default now());
+
+/*文章    class=0为删除，single=1为单页  style=1为图文 2为图片 3为文字*/
+create table article (
+tid char(20) primary key,
+title varchar(200) not null,
+content longtext not null default '',
+cover char(40),
+author char(20) not null default 'admin',
+class int not null default 1,
+style int not null default 1,
+single int not null default '0',
+crate int default 0,
+push int default 0,
+rtime TIMESTAMP not null default now(),
+ptime TIMESTAMP,
+mtime TIMESTAMP,
+category int not null default '1'
+);
+
+create table category(
+id int primary key auto_increment,
+title char(20) not null,
+pid int not null default '0',
+ctime TIMESTAMP not null default now(),
+class int not null default '1',
+style int not null default '1',
+ord int not null default '0'
+);
+
+/*站点名 sitename、网站名 websname、关键词 keywords、网址 url、备案号 icp、关闭网站 tempclose、关闭时提示 cnotice*/
+create table siteinfo(
+inid int primary key auto_increment,
+name char(20) not null unique,
+content char(60) not null,
+ord int not null default '0',
+class int not null default '1',
+ctime TIMESTAMP not null default now() on update now()
+);
+
+create table link(
+lid int primary key auto_increment,
+title char(20) not null,
+url char(50) not null,
+ltime TIMESTAMP not null default now() on update now(),
+ord int
+);
+
+create table message(
+mid int primary key auto_increment,
+sender char(20) not null default '匿名',
+title char(60) not null default '无题',
+content varchar(400) not null default '空',
+ctime TIMESTAMP not null default now(),
+stat int not null default '0'
+);
+
+create table navi(
+nid int primary key auto_increment,
+title char(20) not null,
+url char(140) not null default '#',
+ctime TIMESTAMP not null default now(),
+class int not null default '1',
+del int not null default '1',
+ord int
+);
+
+create table index_face(
+id int primary key,
+cid int not null default '0',
+tid char(20) not null default '0',
+ctime TIMESTAMP not null default now(),
+single int not null default '0'
+);
+insert into admin (aid,password,level) values('admin',md5('abc123www.lutcte.com'),0);

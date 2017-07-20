@@ -1,0 +1,18 @@
+[ 2015-06-11T08:58:09+08:00 ] 127.0.0.1 /Article/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 鏃犳硶鍔犺浇妯″潡:Article
+
+[ 2015-06-11T10:54:41+08:00 ] 127.0.0.1 /browserconfig.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 鏃犳硶鍔犺浇妯″潡:Browserconfig
+
+[ 2015-06-11T16:53:38+08:00 ] 192.168.184.67 /fsadfasdfasdfadsf
+ERR: 鏃犳硶鍔犺浇妯″潡:Fsadfasdfasdfadsf
+
+[ 2015-06-11T16:53:42+08:00 ] 192.168.184.67 /教学大纲
+ERR: 鏃犳硶鍔犺浇妯″潡:教学大纲
+

@@ -1,0 +1,51 @@
+<!--{include file="../Common/header.html" title=""}-->
+	<div class="listwarp">
+		<div class="catenavi"><span class="curposi"><label>当前位置：&nbsp;</label><a href="<!--{$info[4].content}-->">Home</a> <!--{if $single == 1}-->-> <a href="<!--{$smarty.const.__ROOT__}-->/Article/<!--{$data.tid}-->.html" title="<!--{$data.title}-->"><!--{$data.title}--></a><!--{else}--><!--{section name=n start=-1 step=-1 loop=$p}-->-> <a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$p[n].id}-->.html"><!--{$p[n].title}--></a><!--{/section}--><!--{/if}--> <span></div>
+		<div class="list">
+			<div class="catetreebox">
+				<p class="catetitle"><!--{if $single == 1}-->文章单页<!--{else}--><!--{$aid.title}--><!--{/if}--></p>
+				<ul class="ctreeul">
+					<!--{if $single == 1}-->
+					<!--{section name=n loop=$sinlist}-->
+					<li class="ctreelist <!--{if $sinlist[n].tid == $data.tid}-->currdisp<!--{/if}-->"><span class="ctreea"><a href="<!--{$smarty.const.__ROOT__}-->/Article/<!--{$sinlist[n].tid}-->.html" alt="<!--{$sinlist[n].title}-->" title="<!--{$sinlist[n].title}-->"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->singleli.jpg"><!--{$sinlist[n].title|truncateutf8:12}--><!--{if $sinlist[n].count > 18}-->...<!--{/if}--></a></span></li>
+					<!--{/section}-->
+					<!--{else}-->
+					<!--{assign var="i" value=0}-->
+					<!--{section name=n loop=$tree}-->
+					<!--{$i=$i+1}-->
+					<!--{if $tree[n].indent == 1}-->
+					<li class="ctreelist <!--{if $tree[n].id == $p[0].id}-->currdisp<!--{/if}-->"><span class="ctreea"><a href="javascript:void(0);" onclick="showTree(this);"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->liststyle.jpg" alt="<!--{$tree[n].title}-->"></a><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><!--{$tree[n].title}--></a></span>
+						<!--{else if $tree[n].indent == 2}-->
+						<!--{if $tree[$i-2].indent == 1}-->
+						<ul class="sublist"><!--{/if}-->
+							<li <!--{if $tree[n].id == $p[0].id}-->class="currdisp"<!--{/if}-->><span class="ctreea"><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->lisym.jpg" alt="<!--{$tree[n].title}-->"></a><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><!--{$tree[n].title}--></a></span></li>
+						<!--{if $tree[$i].indent == 1|| $tree[$i].indent ==''}-->	
+						</ul>
+						<!--{/if}-->
+						<!--{/if}-->
+					<!--{if $tree[$i].indent == 1 || $tree[$i].indent ==''}-->
+					</li>
+					<!--{/if}-->
+				<!--{/section}-->
+				<!--{/if}-->
+				</ul>
+			</div>
+			<div class="listbox">
+				<div class="listhead">
+					<span class="artcate"><!--{$p[0].title}--></span>
+				</div>
+				<!--文章内容开始-->
+				<div class="maintextbox">
+						<h1 class="arttitle"><!--{$data.title}--></h1>
+						<div class="artinfo">
+							<span class="authorinfo">作者：<!--{$data.author}--></span><span class="timeinfo"><!--{$data.rtime}--></span>
+						</div>
+						<div class="maintext">
+							<!--{$data.content}-->
+						</div>
+						<div class="paging"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--{include file="../Common/footer.html"}-->

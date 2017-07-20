@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <title>FlexPaper AdaptiveUI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width" />
+    <style type="text/css" media="screen">
+        #flashContent { display:none; }
+    </style>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/flexpaper.js"></script>
+</head>
+<body>
+<div id="documentViewer" class="flexpaper_viewer" style="position:absolute;left:10px;top:10px;width:770px;height:1200px"></div>
+
+<script type="text/javascript">
+    $('#documentViewer').FlexPaperViewer(
+            { config : {
+
+                SWFFile : 'image/abc.swf',
+
+                Scale : 1,
+                ZoomTransition : 'easeOut',
+                ZoomTime : 0.5,
+                ZoomInterval : 0.1,
+                FitPageOnLoad : false,
+                FitWidthOnLoad : true,
+                FullScreenAsMaxWindow : false,
+                ProgressiveLoading : false,
+                MinZoomSize : 0.2,
+                MaxZoomSize : 5,
+                SearchMatchAll : false,
+                InitViewMode : '',
+                RenderingOrder : 'flash,html',
+                StartAtPage : '',
+
+                EnableWebGL : true,
+                ViewModeToolsVisible : true,
+                ZoomToolsVisible : true,
+                NavToolsVisible : true,
+                CursorToolsVisible : true,
+                SearchToolsVisible : true,
+                WMode : 'transparent',
+                localeChain: 'zh_CN'
+            }}
+    );
+</script>
+
+</body>
+</html>

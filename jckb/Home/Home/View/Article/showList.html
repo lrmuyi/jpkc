@@ -1,0 +1,42 @@
+<!--{include file="../Common/header.html"}-->
+	<div class="wrap listwarp">
+		<div class="catenavi"><span class="curposi"><label>当前位置：&nbsp;</label><a href="<!--{$smarty.const.__ROOT__}-->">Home</a> <!--{section name=n start=-1 step=-1 loop=$p}-->-> <a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$p[n].id}-->.html"><!--{$p[n].title}--></a><!--{/section}--> <span></div>
+		<div class="list">
+			<div class="catetreebox">
+				<p class="catetitle"><!--{$aid.title}--></p>
+				<ul class="ctreeul">
+					<!--{assign var="i" value=0}-->
+					<!--{section name=n loop=$tree}-->
+					<!--{$i=$i+1}-->
+					<!--{if $tree[n].indent == 1}-->
+					<li class="ctreelist <!--{if $tree[n].id == $p[0].id}-->currdisp<!--{/if}-->"><span class="ctreea"><a href="javascript:void(0);" onclick="showTree(this);"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->liststyle.jpg" alt="<!--{$tree[n].title}-->"></a><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><!--{$tree[n].title}--></a></span>
+						<!--{else if $tree[n].indent == 2}-->
+						<!--{if $tree[$i-2].indent == 1}-->
+						<ul class="sublist"><!--{/if}-->
+							<li <!--{if $tree[n].id == $p[0].id}-->class="currdisp"<!--{/if}-->><span class="ctreea"><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->lisym.jpg" alt="<!--{$tree[n].title}-->"></a><a href="<!--{$smarty.const.__ROOT__}-->/list/<!--{$tree[n].id}-->.html"><!--{$tree[n].title}--></a></span></li>
+						<!--{if $tree[$i].indent == 1|| $tree[$i].indent ==''}-->	
+						</ul>
+						<!--{/if}-->
+						<!--{/if}-->
+					<!--{if $tree[$i].indent == 1 || $tree[$i].indent ==''}-->
+					</li>
+					<!--{/if}-->
+				<!--{/section}-->
+				</ul>
+			</div>
+			<div class="listbox">
+				<div class="listhead">
+					<span class="artcate"><!--{$p[0].title}--></span>
+				</div>
+				<div>
+					<ul class="showul">
+					<!--{section name=n loop=$list}-->
+						<li class="showlist"><a class="showtitle" href="<!--{$smarty.const.__ROOT__}-->/Article/<!--{$list[n].tid}-->.html" title="<!--{$list[n].title}-->"><!--{$list[n].title}--></a><a class="listtime" href="<!--{$smarty.const.__ROOT__}-->/Article/<!--{$list[n].tid}-->.html"><!--{$list[n].rtime}--></a></li>
+					<!--{/section}-->
+					</ul>
+					<p class="paging"><!--{$show}--></p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--{include file="../Common/footer.html"}-->

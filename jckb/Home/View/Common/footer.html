@@ -1,0 +1,16 @@
+	<div class="bottom">
+		<!--{if $frd[0].lid}-->
+		<div class="frdbox">
+			<ul>
+				<li class="frdlink fl">友情链接：</li>
+				<!--{section name=n loop=$frd}-->
+				<li class="frdlink"><a href="<!--{$frd[n].url|strip_tags}-->" target="_blank"><!--{$frd[n].title|strip_tags}--></a></li>
+				<!--{/section}-->
+			</ul>
+		</div>
+		<!--{/if}-->
+		<p><!--{$info[0].content|strip_tags}--></p>
+		<p>Copyright @ 2015-2020 <!--{$info[1].content|strip_tags}--></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+a:6:{i:0;s:3:"aid";i:1;s:8:"password";i:2;s:5:"level";i:3;s:5:"ctime";s:3:"_pk";s:3:"aid";s:5:"_type";a:4:{s:3:"aid";s:8:"char(20)";s:8:"password";s:8:"char(32)";s:5:"level";s:7:"int(11)";s:5:"ctime";s:8:"datetime";}}

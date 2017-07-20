@@ -1,0 +1,1769 @@
+[ 2015-06-10T10:22:54+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T10:23:11+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T10:23:14+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T10:23:18+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T10:23:38+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-06-10T10:23:38+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-06-10T10:23:43+08:00 ] 127.0.0.1 /admin/login.abc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载控制器:Login.abc
+
+[ 2015-06-10T10:24:11+08:00 ] 127.0.0.1 /admin/login.abb
+ERR: 无法加载控制器:Login.abb
+
+[ 2015-06-10T10:24:17+08:00 ] 127.0.0.1 /admin/login.asp
+ERR: 无法加载控制器:Login.asp
+
+[ 2015-06-10T10:32:32+08:00 ] 127.0.0.1 /admin/login.hkk
+ERR: 无法加载控制器:Login.hkk
+
+[ 2015-06-10T22:03:04+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-06-10T22:03:04+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-06-10T22:03:10+08:00 ] 127.0.0.1 /admin.usb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\57d33321e75029a8ebc0751d27699a69efa74169.file.inotice.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\57d33321e75029a8ebc0751d27699a69efa74169.file.inotice.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-06-10T22:03:13+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-06-10T22:03:13+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-06-10T22:03:31+08:00 ] 127.0.0.1 /Admin.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-06-10T22:03:34+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:05:27+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:08:16+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:08:25+08:00 ] 127.0.0.1 /Admin.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-06-10T22:08:28+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:10:37+08:00 ] 127.0.0.1 /admin.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-06-10T22:10:40+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:19:58+08:00 ] 127.0.0.1 /index.php/admin.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+
+[ 2015-06-10T22:20:57+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-06-10T22:24:15+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T22:24:54+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:25:08+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:25:38+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-06-10T22:26:26+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-06-10T22:26:26+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-06-10T22:26:36+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-06-10T22:26:37+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-06-10T22:27:09+08:00 ] 127.0.0.1 /admin.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T22:27:17+08:00 ] 127.0.0.1 /admin.conf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T22:29:12+08:00 ] 127.0.0.1 /Admin.conf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T22:32:59+08:00 ] 127.0.0.1 /Admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T22:33:15+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载控制器:
+
+[ 2015-06-10T23:19:24+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\cms\Runtime\Cache\732abe3ba4f17ce30a0519baa441ab4c3b25bb89.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-06-10T23:19:24+08:00 ] 127.0.0.1 /Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-06-10T23:19:34+08:00 ] 127.0.0.1 /Admin/CheckCode/jsonVarify?checkcode=hpe8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\af74773a8e20772de92d6046e92b7ad8a7d36170.file.index.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\af74773a8e20772de92d6046e92b7ad8a7d36170.file.index.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\776948531b044396828cee7baa5fe4d3c4afdd76.file.head.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\776948531b044396828cee7baa5fe4d3c4afdd76.file.head.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\ece5c9b96fcc42eb674e3660e23d173881595b7a.file.left.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\ece5c9b96fcc42eb674e3660e23d173881595b7a.file.left.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\be3ff9111661b5138fcc7c8755be2de99cdeae1c.file.right.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\be3ff9111661b5138fcc7c8755be2de99cdeae1c.file.right.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:css
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/menu_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/menu_bt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:35+08:00 ] 127.0.0.1 /Admin/Index/img/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 非法操作:img
+
+[ 2015-06-10T23:19:40+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '32' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\138706a53c853e142c520dfbf3167b54eb4f3696.file.category.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\138706a53c853e142c520dfbf3167b54eb4f3696.file.category.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-06-10T23:19:44+08:00 ] 127.0.0.1 /Admin/Manage/delCate/id/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0029s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='32'  and single = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `category` WHERE ( pid='32' )  [ RunTime:0.0002s ]
+SQL: SELECT `pid` FROM `category` WHERE ( id='32' )  [ RunTime:0.0002s ]
+SQL: DELETE FROM `category` WHERE ( id='32' ) [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\bef16514ec44249a2cae53a1e7c7c200a29a3394.file.notice.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\bef16514ec44249a2cae53a1e7c7c200a29a3394.file.notice.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-06-10T23:19:46+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-06-10T23:20:20+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0090s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='4' ) [ RunTime:0.0027s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0084s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='10' ) [ RunTime:0.0087s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0032s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0088s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='27' ) [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-06-10T23:20:22+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-06-10T23:20:50+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0087s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='4' ) [ RunTime:0.0032s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0087s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='10' ) [ RunTime:0.0033s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0034s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+
+[ 2015-06-10T23:20:52+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-06-10T23:22:11+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0094s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='4' ) [ RunTime:0.0086s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0033s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='10' ) [ RunTime:0.0033s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0086s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0033s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='27' ) [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-06-10T23:22:14+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-06-10T23:22:50+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0087s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='4' ) [ RunTime:0.0028s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0028s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='10' ) [ RunTime:0.0084s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0058s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+
+[ 2015-06-10T23:22:52+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-06-10T23:23:12+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0106s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='4' ) [ RunTime:0.0083s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0028s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0084s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+
+[ 2015-06-10T23:23:14+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-06-10T23:23:26+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0092s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0087s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0033s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-06-10T23:23:28+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-06-10T23:23:34+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `category` WHERE ( class='0' ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: UPDATE `category` SET `class`='1' WHERE ( class='0' ) [ RunTime:0.0089s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='6' ) [ RunTime:0.0032s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='14' ) [ RunTime:0.0032s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='16' ) [ RunTime:0.0088s ]
+SQL: UPDATE `category` SET `class`='0' WHERE ( id='27' ) [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-06-10T23:23:36+08:00 ] 127.0.0.1 /Admin/Manage/category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-06-10T23:31:26+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\de5bb6eadf607a1077d6a92e3c69e30d7bd21685.file.siteInfo.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\de5bb6eadf607a1077d6a92e3c69e30d7bd21685.file.siteInfo.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-06-10T23:31:41+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+SQL: UPDATE `siteinfo` SET `content`='1' WHERE ( inid='30' ) [ RunTime:0.0090s ]
+SQL: UPDATE `siteinfo` SET `content`='站点维护，临时关闭，请稍后访问！' WHERE ( inid='31' ) [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-06-10T23:31:43+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-06-10T23:35:16+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0002s ]
+SQL: UPDATE `siteinfo` SET `content`='0' WHERE ( inid='30' ) [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-06-10T23:35:18+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-06-10T23:36:59+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+SQL: UPDATE `siteinfo` SET `content`='你好你好' WHERE ( inid='26' ) [ RunTime:0.0127s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-06-10T23:37:01+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-06-10T23:38:18+08:00 ] 127.0.0.1 /Admin/Manage/singlePage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Admin\Controller\ManageController.class.php 第 631 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `article` WHERE ( class != '0' and single = '1' ) ORDER BY rtime desc LIMIT 0,10   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class != '0' and single = '1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\564a19a910ee9743122d5a309889a2f5355d43d9.file.singlePage.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\564a19a910ee9743122d5a309889a2f5355d43d9.file.singlePage.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-06-10T23:38:20+08:00 ] 127.0.0.1 /Admin/Manage/article/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Admin\Controller\ManageController.class.php 第 159 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '0' )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '5' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '13' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '14' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '16' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '3' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '6' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '18' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '7' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '8' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '15' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '10' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '19' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '20' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '24' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '21' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '22' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '23' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '29' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '26' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '30' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '27' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( class='1' and single='0' ) ORDER BY rtime desc LIMIT 0,10   [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class='1' and single='0' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\7716358642ee54d82ea10896cd1ef68b927c0e95.file.article.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\7716358642ee54d82ea10896cd1ef68b927c0e95.file.article.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-06-10T23:38:22+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-06-10T23:38:28+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+SQL: UPDATE `siteinfo` SET `content`='你好你好abc' WHERE ( inid='26' ) [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-06-10T23:38:30+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-06-10T23:38:31+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-06-10T23:38:34+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-06-10T23:38:36+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-06-10T23:38:36+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+
+[ 2015-06-10T23:38:39+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-06-10T23:38:40+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-06-10T23:38:42+08:00 ] 127.0.0.1 /Admin/Manage/siteInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+

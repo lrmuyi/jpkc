@@ -1,0 +1,234 @@
+[ 2015-06-13T19:42:49+08:00 ] 42.91.168.53 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `index_face` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `index_face`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`content`,`cover` FROM `article` WHERE ( tid='1434100500947' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='2'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='3'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='4' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='4'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='5' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='5'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='6' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='6'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( push=1 ) ORDER BY ptime desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( class=1 ) ORDER BY rtime desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 269 行.
+NOTIC: [8] Undefined offset: 1 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 270 行.
+NOTIC: [8] Undefined offset: 1 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 271 行.
+NOTIC: [8] Undefined offset: 2 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 269 行.
+NOTIC: [8] Undefined offset: 2 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 270 行.
+NOTIC: [8] Undefined offset: 2 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 271 行.
+NOTIC: [8] Undefined offset: 3 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 269 行.
+NOTIC: [8] Undefined offset: 3 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 270 行.
+NOTIC: [8] Undefined offset: 3 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 271 行.
+NOTIC: [8] Undefined offset: 4 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 269 行.
+NOTIC: [8] Undefined offset: 4 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 270 行.
+NOTIC: [8] Undefined offset: 4 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 271 行.
+NOTIC: [8] Undefined offset: 5 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 269 行.
+NOTIC: [8] Undefined offset: 5 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 270 行.
+NOTIC: [8] Undefined offset: 5 D:\web\jpkc\Runtime\Cache\3c6747a3669e6378345f7d9b9b5e7a6e9d76c1b8.file.index.html.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2015-06-13T19:42:53+08:00 ] 42.91.168.53 /list/Category/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8] Undefined index: p D:\web\jpkc\Home\Controller\ArticleController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id='9' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '9' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( class='1' and category='9' ) ORDER BY rtime desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class='1' and category='9' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: brief D:\web\jpkc\Home\Controller\ArticleController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc/Runtime/Cache\782db82a579a69eb751078183d290128a4cc2d52.file.showList.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc/Runtime/Cache\782db82a579a69eb751078183d290128a4cc2d52.file.showList.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-06-13T20:03:14+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+
+[ 2015-06-13T20:03:19+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+
+[ 2015-06-13T20:03:39+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\cyuyan\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `index_face` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `index_face`  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( push=1 ) ORDER BY ptime desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( class=1 ) ORDER BY rtime desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\3476453cda97c069eb3bea029a51ea306c2a063d.file.index.html.php D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\3476453cda97c069eb3bea029a51ea306c2a063d.file.index.html.php): No such file or directory D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\8d731177d4c33c147ffc9a2ce154868b3eec952c.file.header_index.html.php D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\8d731177d4c33c147ffc9a2ce154868b3eec952c.file.header_index.html.php): No such file or directory D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\94421a620713cb171b81a28626474a4277da81b4.file.footer.html.php D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\94421a620713cb171b81a28626474a4277da81b4.file.footer.html.php): No such file or directory D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.488600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.488707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2015-06-13T20:15:44+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `index_face` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `index_face`  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( push=1 ) ORDER BY ptime desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( class=1 ) ORDER BY rtime desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\3476453cda97c069eb3bea029a51ea306c2a063d.file.index.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\3476453cda97c069eb3bea029a51ea306c2a063d.file.index.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\8d731177d4c33c147ffc9a2ce154868b3eec952c.file.header_index.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\8d731177d4c33c147ffc9a2ce154868b3eec952c.file.header_index.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\94421a620713cb171b81a28626474a4277da81b4.file.footer.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\94421a620713cb171b81a28626474a4277da81b4.file.footer.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.485622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.485732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2015-06-13T20:21:53+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+
+[ 2015-06-13T20:22:18+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+
+[ 2015-06-13T20:22:27+08:00 ] 42.91.168.53 /cyuyan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\web\jpkc\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `index_face` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `index_face`  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( push=1 ) ORDER BY ptime desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( class=1 ) ORDER BY rtime desc LIMIT 4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+

@@ -1,0 +1,332 @@
+[ 2015-06-09T21:21:38+08:00 ] 127.0.0.1 /Home/list/Category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载控制器:List
+
+[ 2015-06-09T21:21:54+08:00 ] 127.0.0.1 /Home/article/showlist/Category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: category D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: tid D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+NOTIC: [8] Undefined index: category D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 13 行.
+
+[ 2015-06-09T21:22:00+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: tid D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:05+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: tid D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:07+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+NOTIC: [8] Undefined index: tid D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php 第 68 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:39+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:42+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:45+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:22:51+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id='32' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '32' )  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\cms\Model\ArticleModel.class.php 第 211 行.
+SQL: SELECT * FROM `article` WHERE ( class='1' and category='32' ) ORDER BY rtime desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class='1' and category='32' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: brief D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\13b2366848f1b74828ef97e7150a7ed5c420ebf1.file.showlist.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\13b2366848f1b74828ef97e7150a7ed5c420ebf1.file.showlist.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\eb3b3ae852444d886106df6c7cef4ad63e9c684b.file.header.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\eb3b3ae852444d886106df6c7cef4ad63e9c684b.file.header.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\b4e3cf17ab8d9a1dd03e843932a81b084b09c1d5.file.footer.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\b4e3cf17ab8d9a1dd03e843932a81b084b09c1d5.file.footer.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2015-06-09T21:24:14+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:24:19+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id='32' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '32' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\cms\Model\ArticleModel.class.php 第 211 行.
+SQL: SELECT * FROM `article` WHERE ( class='1' and category='32' ) ORDER BY rtime desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class='1' and category='32' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: brief D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-06-09T21:24:41+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:25:54+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-06-09T21:26:09+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.aspxs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:26:23+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.aspxs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+
+[ 2015-06-09T21:26:27+08:00 ] 127.0.0.1 /Home/article/showlist/category/32.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-06-09T22:06:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `index_face` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `index_face`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`content`,`cover` FROM `article` WHERE ( tid='1433595243557' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='5' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='5'  and single = '0' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id='5' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='5'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`content`,`cover` FROM `article` WHERE ( tid='1433595243557' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='23' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='23'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='24' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`rtime` FROM `article` WHERE ( category='24'  and single = '0' )  [ RunTime:0.0002s ]
+SQL: SELECT `tid`,`title`,`cover` FROM `article` WHERE ( push=1 ) ORDER BY ptime desc LIMIT 4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\69871070282a6beccdede3f260d3090b8babb60e.file.header_index.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\69871070282a6beccdede3f260d3090b8babb60e.file.header_index.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 143 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 144 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 146 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 147 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 143 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 144 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 146 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 147 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 143 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 144 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 146 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 147 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 200 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 201 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 202 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 200 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 201 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 202 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 200 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 201 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 202 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 324 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 325 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 326 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 324 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 325 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 326 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 324 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 325 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 326 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 324 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 325 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 326 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 324 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 325 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\cms\Runtime\Cache\47417556678c4821bb92c04fe2e8a4dcdbd21946.file.index.html.php 第 326 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2015-06-09T22:06:38+08:00 ] 127.0.0.1 /Home/list/Category/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `navi` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `siteinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `siteinfo` WHERE ( class = 1 ) ORDER BY ord  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `navi` WHERE ( class='1' ) ORDER BY ord,ctime  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id='32' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( pid = '32' )  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\cms\Model\ArticleModel.class.php 第 211 行.
+SQL: SELECT * FROM `article` WHERE ( class='1' and category='32' ) ORDER BY rtime desc LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( class='1' and category='32' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: brief D:\xampp\htdocs\cms\Home\Controller\ArticleController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:/xampp/htdocs/cms/Runtime/Cache\869ed34a0aeb127e8a179bf841075fd5e88382c0.file.showList.html.php D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:/xampp/htdocs/cms/Runtime/Cache\869ed34a0aeb127e8a179bf841075fd5e88382c0.file.showList.html.php): No such file or directory D:\xampp\htdocs\cms\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-06-09T22:06:44+08:00 ] 127.0.0.1 /Home/list/Category/32.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载控制器:List
+
+[ 2015-06-09T22:06:52+08:00 ] 127.0.0.1 /Home/list/Category/32.abc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载控制器:List
+
+[ 2015-06-09T22:11:02+08:00 ] 127.0.0.1 /Home/list/Category/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载控制器:List
+

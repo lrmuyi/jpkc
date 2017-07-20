@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><!--{$info[0].content}--></title>
+    <meta content="<!--{$info[3].content}-->" name="keywords" />
+    <meta content="<!--{$info[2].content}-->" name="description" />
+	<link rel="stylesheet" href="<!--{$smarty.const.HOME_IMAGE_URL}-->css/main.css?v=<!--{$smarty.now|date_format:"Ymd"}-->" media="screen"/>
+	<!--[if lte IE 6]>
+	<script src="<!--{$smarty.const.HOME_JS_URL}-->DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	DD_belatedPNG.fix('div, ul, img, li, input, a, .logo,.boxhead,.boxhead2,.boxhead3,.boxmore');
+	</script>
+	<![endif]--> 
+	<script type="text/javascript">
+		function showTree(cur){
+			var sub = cur.parentNode.parentNode.getElementsByTagName('ul');
+			if(sub[0].style.display == 'none'){
+				sub[0].style.display = 'block';
+			}else{
+				sub[0].style.display = 'none';
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="head">
+		<div class="top">
+			<div class="logo">
+				<a href="<!--{$info[4].content}-->" title="<!--{$info[0].content}-->" alt="<!--{$info[0].content}-->"><img src="<!--{$smarty.const.HOME_IMAGE_URL}-->logo.png" alt="<!--{$info[0].content}-->" /></a>
+			</div>
+		</div>
+		<div class="nav">
+			<ul class="navlist">
+                <!--{section name=n loop=$nav max=10}-->
+				<li class="navcell"><a href="<!--{$nav[n].url}-->"><!--{$nav[n].title}--></a></li>
+				<!--{/section}-->
+			</ul>
+		</div>
+		<div class="navshadow"></div>
+	</div>

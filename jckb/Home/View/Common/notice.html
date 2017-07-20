@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><!--{$notice}--></title>
+	<!--{if $sec}-->
+	<meta http-equiv="refresh" content="<!--{$sec}-->;url=<!--{$jump}-->"/>
+	<!--{/if}-->
+	<link rel="stylesheet" href="<!--{$smarty.const.HOME_IMAGE_URL}-->css/main.css?v=<!--{$smarty.now|date_format:"Ymd"}-->" media="screen"/>
+</head>
+<body style="background-color:white;">
+	<div class="background">
+		<div class="noticebox">
+			<div class="noticetext">
+				<span class="errmsg"><!--{$notice}--></span><br/>
+				<span class="jump"><!--{if $sec}-->（本页面将在<!--{$sec}-->秒后自动<a id="jump" href="<!--{$jump}-->">跳转</a>）<!--{/if}--></span>
+			</div>
+			<div class="errbot">
+				<div>Copyright © 2014-2024 www.lutcte.com All Rights Reserved</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,565 @@
+[ 2015-06-13T00:32:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.32364711319001094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2015-06-13T00:33:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.5883489911208026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-06-13T00:34:18+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.2276455297187141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2015-06-13T00:35:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.45904445857167386
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-06-13T00:36:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.25944682346343806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-06-13T00:37:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.562666014652561
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-06-13T00:38:17+08:00 ] 60.13.10.90 /admin/checkCode/Checkcode?aa=0.868392560839714
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-06-13T20:04:39+08:00 ] 42.91.168.53 /cyuyan/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php): No such file or directory D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\cyuyan\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-06-13T20:04:39+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-06-13T20:05:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.37601932984542263
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2015-06-13T20:06:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.5566744580913018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2015-06-13T20:07:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.19971148574196695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-06-13T20:08:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.6623815368516852
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-06-13T20:09:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.7286198678852494
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2015-06-13T20:10:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.9176332997779528
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2015-06-13T20:11:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.9630149122372088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2015-06-13T20:12:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.33457045351717496
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-06-13T20:13:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.014100223756974506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2015-06-13T20:14:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.6730271152693011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2015-06-13T20:15:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.6589136114974075
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2015-06-13T20:16:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.6793833604138576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-06-13T20:17:40+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.7943935809940461
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-06-13T20:18:26+08:00 ] 42.91.168.53 /cyuyan/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-06-13T20:18:26+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-06-13T20:19:27+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.6635233594988347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-06-13T20:19:46+08:00 ] 42.91.168.53 /cyuyan/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2015-06-13T20:19:46+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-06-13T20:19:47+08:00 ] 42.91.168.53 /cyuyan/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 77 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 79 行.
+NOTIC: [8] Undefined index: err D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\45fb7919a332d6c88b19daa7e92c6c50b88fce20.file.login.html.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-06-13T20:19:48+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-06-13T20:20:48+08:00 ] 42.91.168.53 /cyuyan/Admin/checkCode/Checkcode?aa=0.149312066418526
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\cf96d5f9ce66c0b5dda085361b132aa8188ea3c2.file.index.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\cf96d5f9ce66c0b5dda085361b132aa8188ea3c2.file.index.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\22d957cfcb120153528c242a878094a60da83e4e.file.head.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\22d957cfcb120153528c242a878094a60da83e4e.file.head.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\d32faa5851074142b750cf3c1d513f86341b0074.file.left.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\d32faa5851074142b750cf3c1d513f86341b0074.file.left.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\6cc5e6e3abecd01a66beeec4728914458a7288f5.file.right.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\6cc5e6e3abecd01a66beeec4728914458a7288f5.file.right.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 非法操作:img
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/img/menu_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+ERR: 非法操作:img
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/img/menu_bt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+ERR: 非法操作:img
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+ERR: 非法操作:css
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/img/title_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+ERR: 非法操作:img
+
+[ 2015-06-13T20:20:52+08:00 ] 42.91.168.53 /cyuyan/Admin/Index/img/shadow_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+ERR: 非法操作:img
+
+[ 2015-06-13T20:22:23+08:00 ] 42.91.168.53 /cyuyan/Admin/Manage/refreshCache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for D:\web\jpkc\cyuyan/Runtime/Cache\480c447672d0db29014ca2fd99420d95e044dc4e.file.refreshCache.html.php D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(D:\web\jpkc\cyuyan/Runtime/Cache\480c447672d0db29014ca2fd99420d95e044dc4e.file.refreshCache.html.php): No such file or directory D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] chmod() has been disabled for security reasons D:\web\jpkc\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 61 行.
+NOTIC: [8] Undefined index: msg D:\web\jpkc\cyuyan\Runtime\Cache\480c447672d0db29014ca2fd99420d95e044dc4e.file.refreshCache.html.php 第 38 行.
+NOTIC: [8] Trying to get property of non-object D:\web\jpkc\cyuyan\Runtime\Cache\480c447672d0db29014ca2fd99420d95e044dc4e.file.refreshCache.html.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-06-13T20:22:24+08:00 ] 42.91.168.53 /cyuyan/Admin/Manage/refreshCache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+

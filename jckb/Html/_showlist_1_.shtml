@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>您要查找的分类不存在或者已删除！</title>
+		<meta http-equiv="refresh" content="3;url=/gcsx"/>
+		<link rel="stylesheet" href="/gcsx/public/Home/image/css/main.css?v=20160312" media="screen"/>
+</head>
+<body style="background-color:white;">
+	<div class="background">
+		<div class="noticebox">
+			<div class="noticetext">
+				<span class="errmsg">您要查找的分类不存在或者已删除！</span><br/>
+				<span class="jump">（本页面将在3秒后自动<a id="jump" href="/gcsx">跳转</a>）</span>
+			</div>
+			<div class="errbot">
+				<div>Copyright © 2014-2024 www.lutcte.com All Rights Reserved</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

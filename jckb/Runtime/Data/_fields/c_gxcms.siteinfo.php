@@ -1,0 +1,1 @@
+a:8:{i:0;s:4:"inid";i:1;s:4:"name";i:2;s:7:"content";i:3;s:3:"ord";i:4;s:5:"class";i:5;s:5:"ctime";s:3:"_pk";s:4:"inid";s:5:"_type";a:6:{s:4:"inid";s:7:"int(11)";s:4:"name";s:8:"char(20)";s:7:"content";s:8:"char(60)";s:3:"ord";s:7:"int(11)";s:5:"class";s:7:"int(11)";s:5:"ctime";s:9:"timestamp";}}

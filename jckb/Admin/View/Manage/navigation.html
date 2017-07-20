@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理友情链接</title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+	<script type="text/javascript">
+		function addrow(){
+		    var tr = document.createElement('tr');
+		    var cellsNum = tb.rows[0].cells.length;
+		    for(var j = 0 ; j < cellsNum ; j++){
+		        var td = document.createElement('td');
+		        	if(j==0){
+		        		td.innerHTML='<input style="width:50px;" type="text" name="ord[]"/>';
+		        	}
+		        	if(j==1){
+		        		td.innerHTML='<input type="text" name="title[]" style="width:150px;"/>';
+			        }
+			        if(j==2){
+			        	td.innerHTML='<input type="text" style="width:300px;" name="url[]"/>';
+			        }
+			        if(j==3){
+			        	td.innerHTML='';
+			        }
+			        if(j==4){
+			        	td.innerHTML='<a href="javascript:void(0);" onclick="delrow(this.parentNode.parentNode.rowIndex);">　取消　</a>';
+			        }
+		        tr.appendChild(td);
+		    }
+		    tb.tBodies[0].appendChild(tr);
+		}
+		function delrow(num){
+			tb.deleteRow(num);
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<div class="wrap">
+			<h2>主导航管理：</h2>
+			<div class="wcon">
+				<form method="post">
+					<table class="mtab" id="tb">
+						<tr>
+							<th style="width:60px;">次序</th><th style="width:160px;">导航标题</th><th style="width:310px;">链接地址</th><th>隐藏</th><th>&nbsp;</th>
+						</tr>
+						<!--{section name=n loop=$navi}-->
+						<tr>
+							<td><input style="width:50px;" type="text" name="ord[]" value="<!--{$navi[n].ord}-->" /></td><td><input type="text" name="title[]" style="width:150px;" value="<!--{$navi[n].title}-->"/></td><td><input type="text" style="width:300px;" name="url[]" value="<!--{$navi[n].url}-->"/></td><td><input type="checkbox" name="hidd[]" value="<!--{$navi[n].nid}-->" <!--{if $navi[n].class == 0}--> checked="checked" <!--{/if}-->/></td><td align="center" style="width:50px;"><!--{if $navi[n].del != 0}--><a href="<!--{$smarty.const.__MODULE__}-->/Manage/delNavi/nid/<!--{$navi[n].nid}-->"><!--{else}--><a href="javascript:void(0);" style="color:silver;"><!--{/if}-->删除</a></td>
+						</tr>
+						<!--{/section}-->
+					</table>
+					<div style="margin:5px 0;">
+					<a href="javascript:void(0);" onclick="addrow();"><img src="<!--{$smarty.const.ADMIN_IMAGE_URL}-->m_add.png" />&nbsp;添加</a>
+					</div>
+					<input type="submit" name="button" value="保存" /><span id="frdnotice">（注意：名称与链接为必填，前台只依序显示10条）</span>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

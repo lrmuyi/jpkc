@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><!--{$notice}--></title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+	<!--{if $top=1}--><script>
+	 	window.onload=function(){
+	 		window.setTimeout(goJump,<!--{$sec}-->*1000);
+	 	}
+	 	function goJump(){
+	 		var j = document.getElementById('jump');
+	 		j.click();
+	 	}
+	 </script><!--{else}--><meta http-equiv="refresh" content="<!--{$sec}-->;url=<!--{$jump}-->;"/><!--{/if}-->
+</head>
+<body>
+	<div class="background">
+		<div class="noticebox">
+			<div class="noticetext">
+				<span class="errmsg"><!--{$notice}--></span><br/>
+				<span class="jump"><!--{if $sec}-->（本页面将在<!--{$sec}-->秒后自动<a id="jump" href="<!--{$jump}-->" <!--{if $top=1}-->target="_top"<!--{/if}-->>跳转</a>）<!--{/if}--></span>
+			</div>
+			<div class="errbot">
+				<div>Copyright © 2014-2024 www.lutcte.com All Rights Reserved</div>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

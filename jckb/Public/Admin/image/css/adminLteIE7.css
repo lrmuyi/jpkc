@@ -1,0 +1,29 @@
+img{
+	border:none;
+}
+
+*.listheader span{
+	height:47px;
+	display:block;
+}
+
+.search{
+	margin: 7px 0px 0px 13px;
+	border: 1px dashed silver;
+	display: inline-block;
+	float:left;
+	width: 356px;
+	height: 31px;
+	padding-top: 7px;
+	padding-left: 9px;
+	border-radius: 15px;
+}
+
+.selectall{
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.recycle a{
+	line-height:40px;
+}

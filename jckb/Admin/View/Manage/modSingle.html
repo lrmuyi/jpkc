@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改单页 - <!--{$data.title}--></title>
+	<link rel="stylesheet" href="<!--{$smarty.const.ADMIN_IMAGE_URL}-->css/admin.css"/>
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->themes/default/default.css" />
+	<link rel="stylesheet" href="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css" />
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->kindeditor.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->lang/zh_CN.js"></script>
+	<script charset="utf-8" src="<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var title = document.getElementById('title');
+			var errMsg = document.getElementById('errMsg');
+			var cate = document.getElementById('cate');
+			if(title.value){
+				wleft();
+			}
+
+			title.onblur = checkTitle;
+
+			title.onfocus = function(){
+				var errMsg = document.getElementById('errMsg');
+				errMsg.innerHTML = '*';
+			}
+		}
+
+		function checkTitle(){
+			var title = document.getElementById('title');
+			var errMsg = document.getElementById('errMsg');
+			if(title.value.length == 0){
+				errMsg.innerHTML = '*文章标题必须填写！';
+				return 0;
+			}
+			return 1;
+		}
+
+		function wleft(){
+			var title = document.getElementById('title');
+			var wordleft = document.getElementById('wordleft');
+			
+			wordleft.innerHTML = <!--{$smarty.const.TITLE_MAX_WORD}--> - title.value.length;
+		}
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content1"]', {
+				cssPath : '<!--{$smarty.const.EDITOR_URL}-->plugins/code/prettify.css',
+				uploadJson : '<!--{$smarty.const.EDITOR_URL}-->php/upload_json.php',
+				fileManagerJson : '<!--{$smarty.const.EDITOR_URL}-->php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=editor]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<h2>单页内容修改</h2>
+		<div class="wcon">
+			<div class="editor">
+				<form name="editor" method="post" onsubmit="return(checkTitle());">
+					<p style="margin:5px 0;">文章标题：<input type="text" name="title" id="title" onkeyup="wleft();" Maxlength="<!--{$smarty.const.TITLE_MAX_WORD}-->" class="atitle" value="<!--{$data.title}-->"><span>文章标题还能键入<span id="wordleft"><!--{$smarty.const.TITLE_MAX_WORD}--></span>字</span><label  id="errMsg">*<!--{$err}--></label></p>
+					<textarea name="content1" style="width:700px;height:300px;visibility:hidden;"><!--{$data.content}--></textarea>
+					<br />
+					<input type="submit" name="button" onsubmit="con_submit();" value="提交内容" /> (提交快捷键: Ctrl + Enter)<label>*<!--{$err}--></label>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_icon.gif
+ERR: 非法操作:img
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bt.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/title_bg1.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:00:16+08:00 ] 192.168.218.9 /plc/admin/index/img/shadow_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:09+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_icon.gif
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:09+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:09+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:09+08:00 ] 192.168.218.9 /plc/admin/index/img/menu_bt.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:09+08:00 ] 192.168.218.9 /plc/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-11-24T10:03:10+08:00 ] 192.168.218.9 /plc/admin/index/img/shadow_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:03:10+08:00 ] 192.168.218.9 /plc/admin/index/img/title_bg1.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/img/menu_icon.gif
+ERR: 非法操作:img
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/img/menu_bg.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/img/menu_bt.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/css/admin.css
+ERR: 非法操作:css
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/img/title_bg1.jpg
+ERR: 非法操作:img
+
+[ 2015-11-24T10:32:31+08:00 ] 192.168.219.160 /gcsx/admin/index/img/shadow_bg.jpg
+ERR: 非法操作:img
+

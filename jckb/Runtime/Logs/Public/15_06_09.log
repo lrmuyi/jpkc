@@ -1,0 +1,42 @@
+[ 2015-06-09T21:21:39+08:00 ] 127.0.0.1 /public/Exception/image/css/exception.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+ERR: 无法加载控制器:Exception
+
+[ 2015-06-09T22:06:44+08:00 ] 127.0.0.1 /public/Exception/image/css/exception.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载控制器:Exception
+
+[ 2015-06-09T22:06:52+08:00 ] 127.0.0.1 /public/Exception/image/css/exception.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载控制器:Exception
+
+[ 2015-06-09T22:11:02+08:00 ] 127.0.0.1 /public/Exception/image/css/exception.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Exception
+
+[ 2015-06-09T22:14:50+08:00 ] 127.0.0.1 /public/Admin/image/css/main.css
+ERR: 无法加载控制器:Admin
+
+[ 2015-06-09T22:18:20+08:00 ] 127.0.0.1 /public/Exception/image/css/exception.css
+ERR: 无法加载控制器:Exception
+

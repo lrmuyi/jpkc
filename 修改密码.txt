@@ -1,0 +1,2 @@
+use xxx_gxcms;
+update admin set password = md5('abc123www.lutcte.com') where aid = 'admin';
